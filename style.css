@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Main Color #412014 */
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 9.6rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 130rem;
+  padding: 0 3.2rem;
+}
+
+.beans {
+  max-width: 60rem;
+}
+
+.heading-primary {
+  font-family: "Rubik", sans-serif;
+  font-size: 5.2rem;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -1px;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.hero-main-text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 4.8rem;
+}
+
+.hero-sub-text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #333;
+  margin-top: 10rem;
+  padding: 0 30rem;
+}
+
+.hero {
+  padding-top: 10rem;
+  background-image: url("Img/Wave.svg");
+  /* background: linear-gradient(
+    #e3d7cd 0%,
+    #e3d7cd 80%,
+    #fcefe4 80%,
+    #fcefe4 100%
+  ); */
+  height: 100vh;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-main {
+  background-color: #8a594c;
+  color: white;
+}
+
+.btn-side {
+  background-color: white;
+  color: #333;
+}
+
+.btn-main:hover,
+.btn-main:active {
+  background-color: #7c5044;
+}
+
+.btn-side:hover,
+.btn-side:active {
+  background-color: rgb(240, 240, 240);
+}
+
+.btn-box {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.spacer {
+  aspect-ratio: auto/100vh;
+  max-width: 100%;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-size: cover;
+}
+
+.coffee-1 {
+  max-width: 48rem;
+  max-height: 48rem;
+}
+
+.products {
+  background-color: #fcefe4;
+  height: 100rem;
+}
+
+.container-2 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-top: 19.2rem;
+}
+
+.secondary-heading {
+  font-size: 4.6rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+  color: #333;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+.sub-heading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #8a594c;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+.coffee-packs {
+  /* max-width: 100rem; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-name {
+  font-family: "Rubik", sans-serif;
+  color: #333;
+  font-size: 3rem;
+  letter-spacing: 0.75px;
+  margin-bottom: 4.8rem;
+}
+
+.product-description {
+  /* font-family: "Karla", sans-serif;
+  color: #333;
+  font-size: 1.6rem; */
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 2.4rem;
+  line-height: 1.6;
+}
+
+.coffee-details {
+  margin-left: 1.5rem;
+}
+
+.details-list {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.product-details-box {
+  background-color: white;
+  padding: 4.8rem;
+  border-radius: 3%;
+  /* box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8%); */
+}
+
+.btn-product {
+  margin-top: 4.2rem;
+}
